@@ -261,6 +261,13 @@ footer{
     width: 50%;
   }
 
+  .menu-toggle{
+    background: #eaf1f2;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #eaf1f2;
+  }
+
 
   /* Media Queries */
   
@@ -333,10 +340,6 @@ footer{
       display: none;
     }
   
-    /* .main-container-latest-blog {
-      flex-direction: column;
-    } */
-  
     .div-1,
     .div-2 {
       width: 100%;
@@ -351,10 +354,6 @@ footer{
       gap: 20px;
     }
   
-    /* .newsletter-input-btn input,
-    .newsletter-input-btn button {
-      width: 100%;
-    } */
     .div-1 {
       display: flex;
       flex-direction: column;
